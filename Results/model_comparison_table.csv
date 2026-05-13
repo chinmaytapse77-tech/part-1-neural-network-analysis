@@ -1,1 +1,5 @@
-
+Experiment,Hidden Layers,Neurons,Learning Rate,Batch Size,Epochs,Activation,Test Accuracy,ROC-AUC
+Exp 1 (Baseline),1,32,0.001,32,50,ReLU,0.9425,0.8909
+Exp 2 (Deeper),2,64,0.001,32,50,ReLU,0.98,0.7695
+Exp 3 (Low LR),2,64,0.0001,32,100,ReLU,0.93,0.8354
+Exp 4 (Tanh),2,64,0.001,64,50,Tanh,0.955,0.8697
